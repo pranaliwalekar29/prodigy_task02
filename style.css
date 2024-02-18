@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(17, 20, 20);
+  }
+  
+  .stopwatch {
+    text-align: center;
+    background-color: rgb(103, 112, 126);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+  }
+  
+  #display {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  #lapTimes {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    transition: all ease 0.5s ;
+  }
+  button:focus{
+    background-color: rgb(115, 115, 115);
+  }
+  
